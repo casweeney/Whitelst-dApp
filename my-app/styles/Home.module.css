@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.footer a {
+  color: #e62370;
+}
+
 .image {
   width: 70%;
   height: 50%;
@@ -34,7 +38,7 @@
 
 .button {
   border-radius: 4px;
-  background-color: blue;
+  background-color: #e62370;
   border: none;
   color: #ffffff;
   font-size: 15px;

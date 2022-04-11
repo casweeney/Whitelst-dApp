@@ -198,8 +198,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+        <div className="text-container">
+          <h1 className={styles.title}>Welcome to BlockBaze NFT Whitelist!</h1>
           <div className={styles.description}>
             Its an NFT collection for developers in Crypto.
           </div>
@@ -209,12 +209,16 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-devs.svg" />
+          <img className={styles.image} src="./nastyboy.png" />
         </div>
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by{" "}
+        <a href="https://twitter.com/codingcas">
+          {" "}
+          Casweeney Ojukwu (@codingcas)
+        </a>
       </footer>
     </div>
   );
